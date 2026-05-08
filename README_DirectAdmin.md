@@ -108,6 +108,9 @@ DirectAdmin 面板长时间无访问会进入休眠状态。程序内置**自动
 ```bash
 pkill -9 -u $USER -f "node directadmin.js|node index.js|lsnode" || echo "没有发现运行中的相关进程"
 ```
+### 日志文件
+<img width="570" height="505" alt="image" src="https://github.com/user-attachments/assets/3b0662a4-3354-414b-aa09-3f29fd40455b" />
+
 
 ## ⚠️ 注意事项
 
